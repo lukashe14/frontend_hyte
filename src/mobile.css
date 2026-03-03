@@ -1,0 +1,12 @@
+@media screen and (max-width: 100px){
+  nav {
+    height: 190px;
+  }
+
+  nav ul li {
+    float: none;
+    height: 35px;
+    text-align: left;
+  }
+
+}

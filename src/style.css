@@ -1,0 +1,180 @@
+h1 {
+  color: black;
+}
+
+
+        * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+
+      }
+
+      .box {
+        display: block;
+        height: 100px;
+        width: 100px;
+        float: left;
+        border: 1px solid black;
+        color: aliceblue;
+
+
+      }
+
+      #red {
+        background-color: red;
+      }
+      #green {
+        background-color: green;
+      }
+      #blue {
+        background-color: blue;
+      }
+      #yellow {
+        background-color: yellow;
+        color: black;
+      }
+      #orange {
+        background-color: orange;
+      }
+
+      .clear {
+        clear: both;
+      }
+
+      /* img */
+      img {
+      }
+
+      /* container */
+      .container {
+      }
+
+      /* relative and absolute positioning with blue */
+      #blue {
+      }
+
+      footer {
+            background-color: navy;
+            width: 100%;
+            height: 60px;
+            color: white;
+            text-align: center;
+            padding-top: 25px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+        #laatikko{
+            width: 100px;
+            height: 100px;
+            background-color: navy;
+            border: 10px solid red;
+            padding: 20px;
+            box-sizing: border-box;
+
+        }
+        #sininen{
+            color: blue;
+        }
+        #heart{
+            width: 100px;
+
+            float: left, top;
+
+            nav {
+
+            }
+        }
+        nav::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        ul{
+         list-style-type: none;
+        }
+
+                    ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: navy;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 50;
+            }
+
+            ul li {
+            float: left;
+            }
+
+            ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+
+            ul li a:hover {
+            background-color: lightblue;
+            }
+            #laatikko1 {
+              width: 100px;
+              height: 100px;
+              background-color: 255,255,255;
+              position: absolute;
+              top: -30px;
+              right: -30px;
+              background-image: url("kuvat/heart.png");
+              background-size: contain;
+              background-repeat: no-repeat;
+
+            }
+            #laatikko2 {
+              width: 100px;
+              height: 100px;
+              background-color: blueviolet;
+              position: fixed;
+              top: 50%;
+              right: 0;
+            }
+            #cards {
+               min-height: 40px;
+    }
+
+            .card {
+              box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+              max-width: 500px;
+              margin: 50px auto;
+              padding: 30px;
+              }
+
+            p {
+              margin-top: 80px;
+
+             text-align: left;
+
+            }
+                section{
+            margin-top: 80px;
+            text-align: center;
+        }
+
+        main{
+          position: relative;
+            background-color: rgb(118, 119, 121);
+            padding: 30px;
+            width: 80%;
+            height: 80%;
+            /*keskittää */
+            margin: auto;
+            margin-bottom: 60px;
+            flex: 1;
+        }
+

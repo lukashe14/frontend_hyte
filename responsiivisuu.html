@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsiivinen suunnittelu</title>
+  <style>
+    body {
+      background-color: blueviolet;
+    }
+    p {
+        font-size: 30px;
+        margin: auto;
+    }
+    #orava {
+      width: 100%;
+      max-width: 700px;
+    }
+    #orava2 {
+      width: 300px;
+      height: 50%;
+      object-fit: cover;
+    }
+
+    @media screen and (min-width: 600px) {
+      body {
+        background-color: bisque;
+      }}
+
+    @media screen and (min-width: 800px) {
+      body {
+        background-color: aqua;
+      }}
+
+    @media screen and (min-width:700px) and (max-width: 800px){
+
+      }
+
+
+
+    @media screen and (min-width: 720px) {
+      #orava {
+        display: block;
+        margin: auto;
+      }
+    }
+    #taustakuva {
+      width: 500px;
+      height: 300px;
+      background-color: aliceblue;
+      background-image: url(/public/kuvat/heart.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+
+
+  </style>
+</head>
+<body>
+  <h1>otsikko</h1>
+
+  <p>teksti</p>
+  <p>toinen teksti</p>
+  <h3>normaali img kuva ja mediasäännöt</h3>
+  <img id="orava" src="/kuvat/orava.jpg" alt="">
+
+  <h3>object fit</h3>
+  <img id="orava2" src="/kuvat/orava.jpg" alt="">
+
+  <h3>Taustakuva</h3>
+  <div id="taustakuva"></div>
+
+</body>
+</html>
