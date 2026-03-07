@@ -12,7 +12,6 @@
   left: 50%; /* Center the snackbar */
   transform: translate(-50%, 0);
   bottom: 30px; /* 30px from the bottom */
-  justify-content: center;
 }
 
 #snackbar.error {

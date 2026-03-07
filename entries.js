@@ -1,6 +1,19 @@
 import {fetchData} from './fetch.js';
 
-const diaryContainer = document.querySelector('diary-card-area');
+const diaryContainer = document.querySelector('.diary-card-area');
+
+// Dialog
+/////////////////////////////
+
+const dialog = document.querySelector('.diary_dialog');
+const closeButton = document.querySelector('.diary_dialog button');
+ //"Close" button closes the dialog
+closeButton.addEventListener('click', () => {
+
+  dialog.close();
+
+
+});
 
 const getEntries = async (event) => {
 	const url = 'http://localhost:3000/api/entries';
@@ -35,8 +48,35 @@ const getEntries = async (event) => {
 
     const card = document.createElement('div');
     card.classList.add('card');
-    card.innerHTML = <span>${entry.notes}</span>
+    card.innerHTML = `<span>${entry.notes}</span>`
 
+    const cardDiary = document.createElement('div');
+    cardDiary.classList.add('card-text');
+    cardDiary.innerHTML = `
+    <p><strong>Date:</strong> ${entry.entry_date}</p>
+    <p><strong>Mood:</strong> ${entry.mood}</p>
+    <p><strong>Weight:</strong> ${entry.weight} kg</p>
+    <p><strong>Sleep:</strong> ${entry.sleep_hours} hours</p>
+    `;
+
+    // dialogin avaus
+    const openCard = document.createElement('button');
+    openCard.classList.add('dialogButton');
+    openCard.textContent = 'Avaa dialogissa';
+
+
+    //nappulan kuuntelija
+    openCard.addEventListener('click', () => {
+      dialog.showModal();
+      dialog.querySelector('.diary_id').innerHTML =
+        `<div>ID: <span>${entry.entry_id}</span></div>`;
+    });
+
+
+
+
+    card.appendChild(cardDiary);
+    card.appendChild(openCard);
     diaryContainer.appendChild(card);
 
   });
