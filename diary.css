@@ -145,6 +145,17 @@ h1 {
               margin: 50px auto;
               padding: 30px;
               }
+              form {
+                background-color: #009879;
+                color: #ffffff;
+                padding: 10px;
+                margin-top: 25px;
+                margin-bottom: 25px;
+                font-weight: bold;
+                width: 300px;
+                font-size: 0.9em;
+                  font-family: sans-serif;
+}
 
             p {
               margin-top: 80px;

@@ -15,7 +15,7 @@ nav::after {
             margin: 0;
             padding: 0;
             overflow: hidden;
-            background-color: #6b6969;
+            background-color: navy;
             position: fixed;
             top: 0;
             width: 100%;
@@ -35,7 +35,7 @@ nav::after {
             }
 
             ul li a:hover {
-            background-color: #cf1c1c;
+            background-color: lightblue;
             }
 
 .card {

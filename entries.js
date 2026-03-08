@@ -15,6 +15,37 @@ closeButton.addEventListener('click', () => {
 
 });
 
+
+
+
+
+/*Yritys tehdä delete nappula joka poistaa yksittäisen päiväkirjamerkinnän aiempien materiaalien perustella
+/* const deleteEntry = async (event) => {
+
+  event.preventDefault();
+
+  const idInput = document.getElementById('EntryId');
+  const entryId = idInput.value;
+  console.log(entryId);
+
+  if(!entryId) {
+    return;
+  }
+
+  const confirmed = confirm(`Oletko varma etä haluat poistaa entryn: ${entryId}`);
+
+  //jos käyttäjä painaa cancel niin palautuu
+  if(!confirmed) return;
+
+  const url = `http://localhost:3000/api/entries/${entryId}`;
+
+  const options = {
+    method: 'DELETE',
+  }
+}; */
+
+
+//hakee entryt
 const getEntries = async (event) => {
 	const url = 'http://localhost:3000/api/entries';
 	let headers = {};
@@ -85,4 +116,6 @@ const getEntries = async (event) => {
 
 
 
-export {getEntries}
+export {getEntries
+}
+

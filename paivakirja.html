@@ -11,9 +11,10 @@
 
     <nav>
       <ul>
+        <li>
+          <img src="/kuvat/heartlogo.png" alt="Logo" height="45px" width="45px">
+        </li>
         <li><a href="index.html">Home</a></li>
-        <li><a href="bmi.html">BMI laskuri</a></li>
-        <li><a href="rajapinnat.html">Rajapinnat</a></li>
         <li><a href="paivakirja.html">Päiväkirja</a></li>
       </ul>
 
@@ -39,14 +40,29 @@
 
 
 
-    <footer>Alatunniste</footer>
+    <!-- <footer>Alatunniste</footer> -->
 
     <dialog class="diary_dialog">
       <h2>Tässä on dialogi</h2>
       <p>Avaa ja muokkaa tietoja</p>
       <div class="diary_id">ID</div>
       <button autofocus>Close</button>
+       <div class="bottom-delete">
+      <button type="button" onclick="location.href='paivakirja.html'">Delete Entry</button>
+    </div>
     </dialog>
+
+    <!-- <form class="get-item-form">
+				<label for="itemId">Item ID:</label>
+				<input type="number" id="itemId" name="itemId" placeholder="esim. 1" required />
+				<button type="submit" style="margin-top: 10px">Hae item</button>
+				<button type="button" class="delete-item">Poista item</button>
+			</form> -->
+
+
     <script type="module" src="diary.js"></script>
+
+
+
   </body>
 </html>
