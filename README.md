@@ -31,3 +31,9 @@ Kirjautumisnäkymä
 # Tiedossa olevat ongelmat/yritetty tehdä jotain joka ei toimi
 DeleteUserById ei toimi.
 Päiväkirja merkinnöissä on delete nappula joka ei toimi
+
+
+
+# Sakarin tehtävät
+testit:
+
