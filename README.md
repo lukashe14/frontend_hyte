@@ -36,4 +36,5 @@ Päiväkirja merkinnöissä on delete nappula joka ei toimi
 
 # Sakarin tehtävät
 testit:
+![image alt](
 
