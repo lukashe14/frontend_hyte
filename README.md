@@ -36,4 +36,8 @@ Päiväkirja merkinnöissä on delete nappula joka ei toimi
 
 # Sakarin tehtävät
 testit:
+tehtävä 1
+![image alt](https://github.com/lukashe14/frontend_hyte/blob/main/screenshots/testitulokset.png)
+
+Tein kaikki asennukset ohjeiden mukaan, mutta tulos näyttää erilaiselta kuin ohjeissa.
 
