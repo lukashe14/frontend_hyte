@@ -41,3 +41,6 @@ tehtävä 1
 
 Tein kaikki asennukset ohjeiden mukaan
 
+Tehtävä 2
+![image alt](https://github.com/lukashe14/frontend_hyte/blob/main/screenshots/teht%C3%A4v%C3%A42testi.png)
+
