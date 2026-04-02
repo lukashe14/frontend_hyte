@@ -1,0 +1,13 @@
+{"level":30,"time":"2026-03-31T08:04:05.321Z","pid":22540,"hostname":"DESKTOP-MEDJS28","msg":"Listening on 127.0.0.1:62950"}
+{"level":30,"time":"2026-03-31T08:04:05.550Z","pid":22540,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-31T08:04:06.129Z","pid":22540,"hostname":"DESKTOP-MEDJS28","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-31T08:04:06.130Z","pid":22540,"hostname":"DESKTOP-MEDJS28","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-31T08:04:06.130Z","pid":22540,"hostname":"DESKTOP-MEDJS28","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-31T08:04:06.165Z","pid":22540,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-31T08:04:06.166Z","pid":22540,"hostname":"DESKTOP-MEDJS28","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@35c93f964d0f1d8c5b2187bb7c4265c7\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=71876479-7ec1-4bf9-aae5-2fe93465051a\"}"}
+{"level":30,"time":"2026-03-31T08:04:06.203Z","pid":22540,"hostname":"DESKTOP-MEDJS28","msg":"Setting default timeout for context context=bf83390c-956e-451b-b10a-87a3c70c42b7 to 10000"}
+{"level":30,"time":"2026-03-31T08:04:06.203Z","pid":22540,"hostname":"DESKTOP-MEDJS28","msg":"Changed active context: context=bf83390c-956e-451b-b10a-87a3c70c42b7"}
+{"level":30,"time":"2026-03-31T08:04:06.712Z","pid":22540,"hostname":"DESKTOP-MEDJS28","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-31T08:04:06.712Z","pid":22540,"hostname":"DESKTOP-MEDJS28","msg":"Changed active page"}
+{"level":30,"time":"2026-03-31T08:04:07.028Z","pid":22540,"hostname":"DESKTOP-MEDJS28","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-31T08:12:06.557Z","pid":22540,"hostname":"DESKTOP-MEDJS28","msg":"Removed page=f98ff926-e8cc-4027-9001-feb47da3e6a7 from context=bf83390c-956e-451b-b10a-87a3c70c42b7 page stack"}

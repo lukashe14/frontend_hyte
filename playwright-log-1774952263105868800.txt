@@ -1,0 +1,5 @@
+{"level":30,"time":"2026-03-31T10:17:44.915Z","pid":1204,"hostname":"DESKTOP-MEDJS28","msg":"Listening on 127.0.0.1:51263"}
+{"level":30,"time":"2026-03-31T10:17:45.409Z","pid":1204,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-31T10:17:46.102Z","pid":1204,"hostname":"DESKTOP-MEDJS28","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-31T10:17:46.103Z","pid":1204,"hostname":"DESKTOP-MEDJS28","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-31T10:17:46.103Z","pid":1204,"hostname":"DESKTOP-MEDJS28","msg":"End of node method newBrowser"}

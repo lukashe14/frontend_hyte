@@ -1,0 +1,43 @@
+{"level":30,"time":"2026-03-24T09:28:11.098Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"Listening on 127.0.0.1:54623"}
+{"level":30,"time":"2026-03-24T09:28:11.289Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-24T09:28:11.690Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-24T09:28:11.690Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-24T09:28:11.691Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-24T09:28:11.716Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-24T09:28:11.716Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@ea86de60d04cab20fc7db9ca6e240b54\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=acf72d0a-c675-4b4d-b281-ee9e42daccfb\"}"}
+{"level":30,"time":"2026-03-24T09:28:11.741Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"Setting default timeout for context context=78ca6d56-7f08-41dc-a029-f38ec36eb03a to 10000"}
+{"level":30,"time":"2026-03-24T09:28:11.741Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"Changed active context: context=78ca6d56-7f08-41dc-a029-f38ec36eb03a"}
+{"level":30,"time":"2026-03-24T09:28:12.211Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-24T09:28:12.211Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"Changed active page"}
+{"level":30,"time":"2026-03-24T09:28:12.566Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-24T09:28:12.692Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method typeText"}
+{"level":30,"time":"2026-03-24T09:28:12.692Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"Strict mode is enabled, find Locator with [name=\"my-text\"] in page."}
+{"level":30,"time":"2026-03-24T09:28:15.054Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"End of node method typeText"}
+{"level":30,"time":"2026-03-24T09:28:15.076Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method typeText"}
+{"level":30,"time":"2026-03-24T09:28:15.077Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"Strict mode is enabled, find Locator with [name=\"my-password\"] in page."}
+{"level":30,"time":"2026-03-24T09:28:16.554Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"End of node method typeText"}
+{"level":30,"time":"2026-03-24T09:28:16.570Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method typeText"}
+{"level":30,"time":"2026-03-24T09:28:16.570Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"Strict mode is enabled, find Locator with [name=\"my-textarea\"] in page."}
+{"level":30,"time":"2026-03-24T09:28:21.480Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"End of node method typeText"}
+{"level":30,"time":"2026-03-24T09:28:21.492Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method typeText"}
+{"level":30,"time":"2026-03-24T09:28:21.492Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"Strict mode is enabled, find Locator with [name=\"my-datalist\"] in page."}
+{"level":30,"time":"2026-03-24T09:28:21.630Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"End of node method typeText"}
+{"level":30,"time":"2026-03-24T09:28:21.645Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-24T09:28:21.645Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"Strict mode is enabled, find Locator with id=message in page."}
+{"level":50,"time":"2026-03-24T09:28:31.652Z","pid":11900,"hostname":"DESKTOP-MEDJS28","err":{"type":"TimeoutError","message":"locator.elementHandle: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('id=message')\u001b[22m\n","stack":"locator.elementHandle: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('id=message')\u001b[22m\n\n    at getTextContent (C:\\Users\\Lukas\\Downloads\\FE\\hyte-projekt\\.venv\\Lib\\site-packages\\Browser\\wrapper\\index.js:12057:33)\n    at getText (C:\\Users\\Lukas\\Downloads\\FE\\hyte-projekt\\.venv\\Lib\\site-packages\\Browser\\wrapper\\index.js:12071:21)\n    at async PlaywrightServer.getText (C:\\Users\\Lukas\\Downloads\\FE\\hyte-projekt\\.venv\\Lib\\site-packages\\Browser\\wrapper\\index.js:13690:28)","name":"TimeoutError"},"msg":"locator.elementHandle: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('id=message')\u001b[22m\n"}
+================= Original suppressed error =================
+locator.elementHandle: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('id=message')[22m
+
+    at getTextContent (C:\Users\Lukas\Downloads\FE\hyte-projekt\.venv\Lib\site-packages\Browser\wrapper\index.js:12057:33)
+    at getText (C:\Users\Lukas\Downloads\FE\hyte-projekt\.venv\Lib\site-packages\Browser\wrapper\index.js:12071:21)
+    at async PlaywrightServer.getText (C:\Users\Lukas\Downloads\FE\hyte-projekt\.venv\Lib\site-packages\Browser\wrapper\index.js:13690:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2026-03-24T09:28:31.653Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"Error of node method  getText"}
+{"level":30,"time":"2026-03-24T09:28:31.674Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2026-03-24T09:28:31.675Z","pid":11900,"hostname":"DESKTOP-MEDJS28","Take screenshot with options: ":{"path":"C:\\Users\\Lukas\\Downloads\\FE\\hyte-projekt\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2026-03-24T09:28:31.833Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2026-03-24T10:25:53.718Z","pid":11900,"hostname":"DESKTOP-MEDJS28","msg":"Removed page=421e684b-213e-4188-8a56-a858e21d8807 from context=78ca6d56-7f08-41dc-a029-f38ec36eb03a page stack"}

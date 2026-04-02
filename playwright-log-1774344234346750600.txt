@@ -1,0 +1,61 @@
+{"level":30,"time":"2026-03-24T09:23:55.625Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Listening on 127.0.0.1:58681"}
+{"level":30,"time":"2026-03-24T09:23:56.066Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-24T09:23:56.559Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-24T09:23:56.559Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-24T09:23:56.559Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-24T09:23:56.570Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-24T09:23:56.571Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@09e9f80266b2e99142bfb7b9600da69b\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=87336b21-b3d8-43aa-bb62-52ba8138b9f5\"}"}
+{"level":30,"time":"2026-03-24T09:23:56.587Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Setting default timeout for context context=3be290bb-f3df-47f9-8832-04de635ac841 to 10000"}
+{"level":30,"time":"2026-03-24T09:23:56.587Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Changed active context: context=3be290bb-f3df-47f9-8832-04de635ac841"}
+{"level":30,"time":"2026-03-24T09:23:57.149Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-24T09:23:57.149Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Changed active page"}
+{"level":30,"time":"2026-03-24T09:23:57.374Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-24T09:23:57.441Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method typeText"}
+{"level":30,"time":"2026-03-24T09:23:57.442Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Strict mode is enabled, find Locator with [name=\"my-text\"] in page."}
+{"level":30,"time":"2026-03-24T09:23:59.746Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"End of node method typeText"}
+{"level":30,"time":"2026-03-24T09:23:59.778Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method typeText"}
+{"level":30,"time":"2026-03-24T09:23:59.778Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Strict mode is enabled, find Locator with [name=\"my-password\"] in page."}
+{"level":30,"time":"2026-03-24T09:24:01.193Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"End of node method typeText"}
+{"level":30,"time":"2026-03-24T09:24:01.207Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method typeText"}
+{"level":30,"time":"2026-03-24T09:24:01.207Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Strict mode is enabled, find Locator with [name=\"my-textarea\"] in page."}
+{"level":30,"time":"2026-03-24T09:24:06.285Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"End of node method typeText"}
+{"level":30,"time":"2026-03-24T09:24:06.292Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method typeText"}
+{"level":30,"time":"2026-03-24T09:24:06.292Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Strict mode is enabled, find Locator with [name=\"my-datalist\"] in page."}
+{"level":30,"time":"2026-03-24T09:24:06.406Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"End of node method typeText"}
+{"level":30,"time":"2026-03-24T09:24:06.415Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-24T09:24:06.415Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Strict mode is enabled, find Locator with button in page."}
+{"level":30,"time":"2026-03-24T09:24:08.760Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"End of node method click"}
+{"level":30,"time":"2026-03-24T09:24:08.773Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-24T09:24:08.774Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Strict mode is enabled, find Locator with id=message in page."}
+{"level":30,"time":"2026-03-24T09:24:08.851Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Retrieved text for element id=message containing Received!"}
+{"level":30,"time":"2026-03-24T09:24:08.852Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-24T09:24:08.864Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method selectOption"}
+{"level":30,"time":"2026-03-24T09:24:08.864Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Strict mode is enabled, find Locator with [name=\"my-select\"] in page."}
+{"level":30,"time":"2026-03-24T09:24:11.360Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Option entries: 4"}
+{"level":30,"time":"2026-03-24T09:24:11.360Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Selected entries: 1"}
+{"level":30,"time":"2026-03-24T09:24:11.361Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"End of node method selectOption"}
+{"level":30,"time":"2026-03-24T09:24:11.372Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method checkCheckbox"}
+{"level":30,"time":"2026-03-24T09:24:11.373Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Strict mode is enabled, find Locator with [id\"my-check-2\"] in page."}
+{"level":30,"time":"2026-03-24T09:24:11.385Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Error of node method  checkCheckbox"}
+================= Original suppressed error =================
+locator.waitFor: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': '[id"my-check-2"]' is not a valid selector.
+    at query (<anonymous>:5288:41)
+    at <anonymous>:5298:7
+    at SelectorEvaluatorImpl._cached (<anonymous>:5075:20)
+    at SelectorEvaluatorImpl._queryCSS (<anonymous>:5285:17)
+    at SelectorEvaluatorImpl._querySimple (<anonymous>:5165:19)
+    at <anonymous>:5113:29
+    at SelectorEvaluatorImpl._cached (<anonymous>:5075:20)
+    at SelectorEvaluatorImpl.query (<anonymous>:5106:19)
+    at Object.query (<anonymous>:5320:44)
+    at <anonymous>:5278:21
+Call log:
+[2m  - waiting for locator('[id"my-check-2"]')[22m
+
+    at checkCheckbox (C:\Users\Lukas\Downloads\FE\hyte-projekt\.venv\Lib\site-packages\Browser\wrapper\index.js:12416:17)
+    at async PlaywrightServer.checkCheckbox (C:\Users\Lukas\Downloads\FE\hyte-projekt\.venv\Lib\site-packages\Browser\wrapper\index.js:13690:28)
+=============================================================
+{"level":30,"time":"2026-03-24T09:24:11.413Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2026-03-24T09:24:11.414Z","pid":2584,"hostname":"DESKTOP-MEDJS28","Take screenshot with options: ":{"path":"C:\\Users\\Lukas\\Downloads\\FE\\hyte-projekt\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2026-03-24T09:24:11.527Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2026-03-24T10:25:51.718Z","pid":2584,"hostname":"DESKTOP-MEDJS28","msg":"Removed page=fee91720-be86-43a3-a27b-c0c05298a397 from context=3be290bb-f3df-47f9-8832-04de635ac841 page stack"}

@@ -1,0 +1,29 @@
+{"level":30,"time":"2026-03-24T08:45:52.537Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"Listening on 127.0.0.1:63620"}
+{"level":30,"time":"2026-03-24T08:45:52.952Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-24T08:45:53.490Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-24T08:45:53.490Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-24T08:45:53.491Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-24T08:45:53.508Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-24T08:45:53.508Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@ad0825746080e9e418324584764b3975\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=ed441f94-e9eb-4840-af27-397da64b9c9d\"}"}
+{"level":30,"time":"2026-03-24T08:45:53.544Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"Setting default timeout for context context=eff877ba-b745-4412-976d-ac7e1765d355 to 10000"}
+{"level":30,"time":"2026-03-24T08:45:53.544Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"Changed active context: context=eff877ba-b745-4412-976d-ac7e1765d355"}
+{"level":30,"time":"2026-03-24T08:45:53.873Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-24T08:45:53.874Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"Changed active page"}
+{"level":30,"time":"2026-03-24T08:45:54.115Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-24T08:45:54.182Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method typeText"}
+{"level":30,"time":"2026-03-24T08:45:54.182Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"Strict mode is enabled, find Locator with [name=\"my-text\"] in page."}
+{"level":30,"time":"2026-03-24T08:45:56.502Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"End of node method typeText"}
+{"level":30,"time":"2026-03-24T08:45:56.514Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method typeText"}
+{"level":30,"time":"2026-03-24T08:45:56.514Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"Strict mode is enabled, find Locator with [name=\"my-password\"] in page."}
+{"level":30,"time":"2026-03-24T08:45:57.937Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"End of node method typeText"}
+{"level":30,"time":"2026-03-24T08:45:57.947Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method typeText"}
+{"level":30,"time":"2026-03-24T08:45:57.947Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"Strict mode is enabled, find Locator with [name=\"my-textarea\"] in page."}
+{"level":30,"time":"2026-03-24T08:46:02.852Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"End of node method typeText"}
+{"level":30,"time":"2026-03-24T08:46:02.863Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-24T08:46:02.864Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"Strict mode is enabled, find Locator with button in page."}
+{"level":30,"time":"2026-03-24T08:46:04.998Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"End of node method click"}
+{"level":30,"time":"2026-03-24T08:46:05.011Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-24T08:46:05.012Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"Strict mode is enabled, find Locator with id=message in page."}
+{"level":30,"time":"2026-03-24T08:46:05.102Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"Retrieved text for element id=message containing Received!"}
+{"level":30,"time":"2026-03-24T08:46:05.102Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-24T09:22:31.667Z","pid":8600,"hostname":"DESKTOP-MEDJS28","msg":"Removed page=3d689b3d-ad9f-4584-b3b7-375ef9963e95 from context=eff877ba-b745-4412-976d-ac7e1765d355 page stack"}
