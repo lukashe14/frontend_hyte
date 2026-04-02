@@ -36,11 +36,19 @@ Päiväkirja merkinnöissä on delete nappula joka ei toimi
 
 # Sakarin tehtävät
 testit:
-tehtävä 1
+# tehtävä 1
+Tein kaikki asennukset ohjeiden mukaan
 ![image alt](https://github.com/lukashe14/frontend_hyte/blob/main/screenshots/testitulokset1.png)
 
-Tein kaikki asennukset ohjeiden mukaan
 
-Tehtävä 2
+
+# Tehtävä 2
+
 ![image alt](https://github.com/lukashe14/frontend_hyte/blob/main/screenshots/teht%C3%A4v%C3%A42testi.png)
+
+
+# Tehtävä 5
+
+[here](https://github.com/lukashe14/frontend_hyte/blob/main/screenshots/teht%C3%A4v%C3%A42testi.png)
+
 
