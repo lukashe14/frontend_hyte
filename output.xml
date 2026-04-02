@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.2 (Python 3.12.5 on win32)" generated="2026-04-01T13:43:24.099055" rpa="false" schemaversion="5">
+<robot generator="Robot 7.4.2 (Python 3.12.5 on win32)" generated="2026-04-02T13:29:55.156172" rpa="false" schemaversion="5">
 <suite id="s1" name="Browser Demo3" source="C:\Users\Lukas\Downloads\FE\hyte-projekt\browser_demo3.robot">
 <test id="s1-t1" name="Only Login" line="6">
 <kw name="New Browser" owner="Browser">
-<msg time="2026-04-01T13:43:24.378097" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\Lukas\\Downloads\\FE\\hyte-projekt\\browser\\traces\\temp\\19597b22-c6f1-44db-9902-d86c8de2b786"}</msg>
-<msg time="2026-04-01T13:43:24.410302" level="INFO">Starting Browser process C:\Users\Lukas\Downloads\FE\hyte-projekt\.venv\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:53384</msg>
-<msg time="2026-04-01T13:43:25.960924" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\Lukas\\Downloads\\FE\\hyte-projekt\\browser\\traces\\temp\\19597b22-c6f1-44db-9902-d86c8de2b786"}</msg>
+<msg time="2026-04-02T13:29:55.785561" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\Lukas\\Downloads\\FE\\hyte-projekt\\browser\\traces\\temp\\056e0aac-d761-44fe-8471-bc277a535768"}</msg>
+<msg time="2026-04-02T13:29:55.833435" level="INFO">Starting Browser process C:\Users\Lukas\Downloads\FE\hyte-projekt\.venv\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:55659</msg>
+<msg time="2026-04-02T13:29:58.293025" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\Lukas\\Downloads\\FE\\hyte-projekt\\browser\\traces\\temp\\056e0aac-d761-44fe-8471-bc277a535768"}</msg>
 <arg>chromium</arg>
 <arg>headless=No</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2026-04-01T13:43:24.375544" elapsed="1.585380"/>
+<status status="PASS" start="2026-04-02T13:29:55.785561" elapsed="2.509468"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2026-04-01T13:43:27.319885" level="INFO">Successfully initialized new page object and opened url: http://localhost:5173/login.html</msg>
-<msg time="2026-04-01T13:43:27.321889" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<msg time="2026-04-02T13:29:59.330514" level="INFO">Successfully initialized new page object and opened url: http://localhost:5173/login.html</msg>
+<msg time="2026-04-02T13:29:59.330514" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
 <arg>${BASE_URL}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2026-04-01T13:43:25.983596" elapsed="1.338293"/>
+<status status="PASS" start="2026-04-02T13:29:58.298035" elapsed="1.033962"/>
 </kw>
 <kw name="Scroll To" owner="Browser">
-<msg time="2026-04-01T13:43:27.509918" level="INFO">JavaScript executed successfully.</msg>
-<msg time="2026-04-01T13:43:27.513803" level="INFO">JavaScript executed successfully.</msg>
-<msg time="2026-04-01T13:43:27.538895" level="INFO">JavaScript executed successfully.</msg>
-<msg time="2026-04-01T13:43:27.538895" level="INFO">JavaScript executed successfully.</msg>
-<msg time="2026-04-01T13:43:27.556503" level="INFO">JavaScript executed successfully.</msg>
+<msg time="2026-04-02T13:29:59.505311" level="INFO">JavaScript executed successfully.</msg>
+<msg time="2026-04-02T13:29:59.507318" level="INFO">JavaScript executed successfully.</msg>
+<msg time="2026-04-02T13:29:59.540687" level="INFO">JavaScript executed successfully.</msg>
+<msg time="2026-04-02T13:29:59.540687" level="INFO">JavaScript executed successfully.</msg>
+<msg time="2026-04-02T13:29:59.557352" level="INFO">JavaScript executed successfully.</msg>
 <arg>input[placeholder="name"]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Scrolls an element or the page to an absolute position based on given coordinates.</doc>
-<status status="PASS" start="2026-04-01T13:43:27.337468" elapsed="0.219035"/>
+<status status="PASS" start="2026-04-02T13:29:59.336715" elapsed="0.220637"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2026-04-01T13:43:27.588861" level="INFO">Waited for Element with selector input[placeholder="name"] at state visible</msg>
+<msg time="2026-04-02T13:29:59.575761" level="INFO">Waited for Element with selector input[placeholder="name"] at state visible</msg>
 <arg>input[placeholder="name"]</arg>
 <arg>visible</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2026-04-01T13:43:27.574785" elapsed="0.014076"/>
+<status status="PASS" start="2026-04-02T13:29:59.557352" elapsed="0.019416"/>
 </kw>
 <kw name="Type Text" owner="Browser">
-<msg time="2026-04-01T13:43:27.591901" level="INFO">Types the text 'Lukas' in the given field.</msg>
+<msg time="2026-04-02T13:29:59.584088" level="INFO">Types the text 'Lukas' in the given field.</msg>
 <arg>input[placeholder="name"]</arg>
 <arg>${USERNAME}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2026-04-01T13:43:27.590854" elapsed="0.071135"/>
+<status status="PASS" start="2026-04-02T13:29:59.582084" elapsed="0.070023"/>
 </kw>
 <kw name="Type Secret" owner="Browser">
 <arg>input[placeholder="password123"]</arg>
@@ -59,46 +59,46 @@
 <tag>Setter</tag>
 <doc>Types the given secret from ``variable_name`` into the text field
 found by ``selector``.</doc>
-<status status="PASS" start="2026-04-01T13:43:27.690970" elapsed="0.084063"/>
+<status status="PASS" start="2026-04-02T13:29:59.652107" elapsed="0.070337"/>
 </kw>
 <kw name="Scroll To" owner="Browser">
-<msg time="2026-04-01T13:43:27.837224" level="INFO">JavaScript executed successfully.</msg>
-<msg time="2026-04-01T13:43:27.837224" level="INFO">JavaScript executed successfully.</msg>
-<msg time="2026-04-01T13:43:27.868822" level="INFO">JavaScript executed successfully.</msg>
-<msg time="2026-04-01T13:43:27.868822" level="INFO">JavaScript executed successfully.</msg>
-<msg time="2026-04-01T13:43:27.885356" level="INFO">JavaScript executed successfully.</msg>
+<msg time="2026-04-02T13:29:59.777136" level="INFO">JavaScript executed successfully.</msg>
+<msg time="2026-04-02T13:29:59.777136" level="INFO">JavaScript executed successfully.</msg>
+<msg time="2026-04-02T13:29:59.811834" level="INFO">JavaScript executed successfully.</msg>
+<msg time="2026-04-02T13:29:59.811834" level="INFO">JavaScript executed successfully.</msg>
+<msg time="2026-04-02T13:29:59.830483" level="INFO">JavaScript executed successfully.</msg>
 <arg>text=Login and get new token</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Scrolls an element or the page to an absolute position based on given coordinates.</doc>
-<status status="PASS" start="2026-04-01T13:43:27.798710" elapsed="0.086646"/>
+<status status="PASS" start="2026-04-02T13:29:59.734025" elapsed="0.096458"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2026-04-01T13:43:27.906167" level="INFO">Waited for Element with selector text=Login and get new token at state visible</msg>
+<msg time="2026-04-02T13:29:59.853465" level="INFO">Waited for Element with selector text=Login and get new token at state visible</msg>
 <arg>text=Login and get new token</arg>
 <arg>visible</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2026-04-01T13:43:27.898675" elapsed="0.007492"/>
+<status status="PASS" start="2026-04-02T13:29:59.838522" elapsed="0.016952"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2026-04-01T13:43:27.940638" level="INFO">Clicks the element 'text=Login and get new token'.</msg>
+<msg time="2026-04-02T13:29:59.867109" level="INFO">Clicks the element 'text=Login and get new token'.</msg>
 <arg>text=Login and get new token</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2026-04-01T13:43:27.940638" elapsed="0.055708"/>
+<status status="PASS" start="2026-04-02T13:29:59.865102" elapsed="0.056187"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2026-04-01T13:43:30.018631" level="INFO">Slept 2 seconds.</msg>
+<msg time="2026-04-02T13:30:01.954196" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-04-01T13:43:28.017557" elapsed="2.001074"/>
+<status status="PASS" start="2026-04-02T13:29:59.950025" elapsed="2.004171"/>
 </kw>
-<status status="PASS" start="2026-04-01T13:43:24.374792" elapsed="5.644939"/>
+<status status="PASS" start="2026-04-02T13:29:55.785561" elapsed="6.169970"/>
 </test>
-<status status="PASS" start="2026-04-01T13:43:24.099055" elapsed="5.933508"/>
+<status status="PASS" start="2026-04-02T13:29:55.158177" elapsed="6.808195"/>
 </suite>
 <statistics>
 <total>
