@@ -53,4 +53,6 @@ Tein kaikki asennukset ohjeiden mukaan
 
 [robot](https://github.com/lukashe14/frontend_hyte/blob/main/browser_demo3.robot)
 
+![image alt](https://github.com/lukashe14/frontend_hyte/blob/main/screenshots/teht%C3%A4v%C3%A45testi.png)
+
 
