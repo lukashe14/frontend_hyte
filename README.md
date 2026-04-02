@@ -49,6 +49,8 @@ Tein kaikki asennukset ohjeiden mukaan
 
 # Tehtävä 5
 
-[here](https://github.com/lukashe14/frontend_hyte/blob/main/screenshots/teht%C3%A4v%C3%A42testi.png)
+[load_env](https://github.com/lukashe14/frontend_hyte/blob/main/load_env.py)
+
+[robot](https://github.com/lukashe14/frontend_hyte/blob/main/browser_demo3.robot)
 
 
