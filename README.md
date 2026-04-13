@@ -61,7 +61,7 @@ Tein kaikki asennukset ohjeiden mukaan
 # Tehtävä 6
 [robot](https://github.com/lukashe14/frontend_hyte/blob/main/browser_demo4.robot)
 
-![image](github.com/lukashe14/frontend_hyte/blob/main/screenshots/tehtävä6testi.png)
+![image alt](github.com/lukashe14/frontend_hyte/blob/main/screenshots/tehtävä6testi.png)
 
 # Tehtävä 7
 ![Kuva komennosta](https://github.com/lukashe14/frontend_hyte/blob/main/screenshots/Teht%C3%A4v%C3%A47command.png)
