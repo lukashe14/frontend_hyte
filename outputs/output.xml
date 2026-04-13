@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.12.5 on win32)" generated="2026-04-13T22:38:06.826404" rpa="false" schemaversion="5">
+<suite id="s1" name="Browser Demo4" source="C:\Users\Lukas\Downloads\FE\hyte-projekt\browser_demo4.robot">
+<test id="s1-t1" name="Only Login" line="11">
+<kw name="New Browser" owner="Browser">
+<msg time="2026-04-13T22:38:08.763110" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\***\\Downloads\\FE\\hyte-projekt\\outputs\\browser\\traces\\temp\\05038f75-def5-4f00-9a41-458d1b654288"}</msg>
+<msg time="2026-04-13T22:38:08.873174" level="INFO">Starting Browser process C:\Users\***\Downloads\FE\hyte-projekt\.venv\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:63527</msg>
+<msg time="2026-04-13T22:38:11.714565" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\***\\Downloads\\FE\\hyte-projekt\\outputs\\browser\\traces\\temp\\05038f75-def5-4f00-9a41-458d1b654288"}</msg>
+<arg>chromium</arg>
+<arg>headless=No</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-04-13T22:38:08.761107" elapsed="2.953458"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2026-04-13T22:38:12.749915" level="INFO">Successfully initialized new page object and opened url: http://localhost:5173/login.html</msg>
+<msg time="2026-04-13T22:38:12.749915" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${BASE_URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-04-13T22:38:11.724171" elapsed="1.027749"/>
+</kw>
+<kw name="Scroll To" owner="Browser">
+<msg time="2026-04-13T22:38:12.965817" level="INFO">JavaScript executed successfully.</msg>
+<msg time="2026-04-13T22:38:12.967183" level="INFO">JavaScript executed successfully.</msg>
+<msg time="2026-04-13T22:38:13.013358" level="INFO">JavaScript executed successfully.</msg>
+<msg time="2026-04-13T22:38:13.013358" level="INFO">JavaScript executed successfully.</msg>
+<msg time="2026-04-13T22:38:13.039668" level="INFO">JavaScript executed successfully.</msg>
+<arg>input[placeholder="name"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Scrolls an element or the page to an absolute position based on given coordinates.</doc>
+<status status="PASS" start="2026-04-13T22:38:12.782032" elapsed="0.258138"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-04-13T22:38:13.073280" level="INFO">Waited for Element with selector input[placeholder="name"] at state visible</msg>
+<arg>input[placeholder="name"]</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-04-13T22:38:13.052472" elapsed="0.020808"/>
+</kw>
+<kw name="Type Text" owner="Browser">
+<msg time="2026-04-13T22:38:13.085603" level="INFO">Types the text '***' in the given field.</msg>
+<arg>input[placeholder="name"]</arg>
+<arg>${USERNAME}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-04-13T22:38:13.082947" elapsed="0.092416"/>
+</kw>
+<kw name="Type Secret" owner="Browser">
+<arg>input[placeholder="password123"]</arg>
+<arg>$PASSWORD</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given secret from ``variable_name`` into the text field
+found by ``selector``.</doc>
+<status status="PASS" start="2026-04-13T22:38:13.191718" elapsed="0.053294"/>
+</kw>
+<kw name="Scroll To" owner="Browser">
+<msg time="2026-04-13T22:38:13.293214" level="INFO">JavaScript executed successfully.</msg>
+<msg time="2026-04-13T22:38:13.294171" level="INFO">JavaScript executed successfully.</msg>
+<msg time="2026-04-13T22:38:13.329403" level="INFO">JavaScript executed successfully.</msg>
+<msg time="2026-04-13T22:38:13.329403" level="INFO">JavaScript executed successfully.</msg>
+<msg time="2026-04-13T22:38:13.346791" level="INFO">JavaScript executed successfully.</msg>
+<arg>text=Login and get new token</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Scrolls an element or the page to an absolute position based on given coordinates.</doc>
+<status status="PASS" start="2026-04-13T22:38:13.253205" elapsed="0.093586"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-04-13T22:38:13.363010" level="INFO">Waited for Element with selector text=Login and get new token at state visible</msg>
+<arg>text=Login and get new token</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-04-13T22:38:13.351559" elapsed="0.013455"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-04-13T22:38:13.366810" level="INFO">Clicks the element 'text=Login and get new token'.</msg>
+<arg>text=Login and get new token</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-04-13T22:38:13.366810" elapsed="0.055010"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-04-13T22:38:15.432570" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-04-13T22:38:13.432312" elapsed="2.000258"/>
+</kw>
+<status status="PASS" start="2026-04-13T22:38:08.752013" elapsed="6.682561"/>
+</test>
+<status status="PASS" start="2026-04-13T22:38:06.839630" elapsed="8.614982"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Browser Demo4" id="s1" pass="1" fail="0" skip="0">Browser Demo4</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
