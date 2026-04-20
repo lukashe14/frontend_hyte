@@ -46,26 +46,14 @@ Tein kaikki asennukset ohjeiden mukaan
 
 testissä  käytetään esimerkki  testisivua jossa ajetaan tämä robot koodin pätkä 
 
-*** Settings ***
-Library     Browser    auto_closing_level=KEEP
-Resource    Keywords.robot  
-
-*** Test Cases ***
-Test Web Form
-    New Browser    chromium    headless=No  
-    New Page       https://www.selenium.dev/selenium/web/web-form.html 
-    Get Title      ==    Web form  
-    Type Text      [name="my-text"]        ${Username}    delay=0.1 s 
-    Type Secret    [name="my-password"]    $Password      delay=0.1 s
-    Type Text      [name="my-textarea"]    ${Message}     delay=0.1 s
-    Click With Options    button    delay=2 s
-    Get Text       id=message    ==    Received! 
+[tehtävä 2 robot koodi](https://github.com/lukashe14/frontend_hyte/blob/main/browser_demo.robot)
 
  ja kun se ajaa testin niin tuloksena on seuraava  kuva
 
 ![image alt](https://github.com/lukashe14/frontend_hyte/blob/main/screenshots/teht%C3%A4v%C3%A42testi.png)
 
 # Tehtävä 3
+Tehtävässä piti tehdä muokkauksia edelliseen tehtävään. Esimerkiksi nyt koodi kirjoittaa testiin lokaation nimen
 [robot](https://github.com/lukashe14/frontend_hyte/blob/main/browser_demo2.robot)
 
 
