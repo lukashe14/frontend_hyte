@@ -26,4 +26,3 @@ dist-ssr
 .venv
 .env
 
-playwright-log-*.txt

@@ -17,4 +17,3 @@ Only Login
     Click    text=Login and get new token
 
     Sleep    2s
-

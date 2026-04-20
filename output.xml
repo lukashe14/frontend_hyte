@@ -1,56 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.2 (Python 3.12.5 on win32)" generated="2026-04-13T21:24:08.115024" rpa="false" schemaversion="5">
+<robot generator="Robot 7.4.2 (Python 3.12.5 on win32)" generated="2026-04-20T21:28:04.698192" rpa="false" schemaversion="5">
 <suite id="s1" name="Browser Demo4" source="C:\Users\Lukas\Downloads\FE\hyte-projekt\browser_demo4.robot">
 <test id="s1-t1" name="Only Login" line="11">
+<msg time="2026-04-20T21:28:06.221619" level="INFO">Decrypting text and return value.</msg>
 <kw name="New Browser" owner="Browser">
-<msg time="2026-04-13T21:24:09.474562" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\***\\Downloads\\FE\\hyte-projekt\\browser\\traces\\temp\\e2b7c2b4-d9f2-4068-8dba-8c1f861d404e"}</msg>
-<msg time="2026-04-13T21:24:09.521866" level="INFO">Starting Browser process C:\Users\***\Downloads\FE\hyte-projekt\.venv\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:60948</msg>
-<msg time="2026-04-13T21:24:11.649343" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\***\\Downloads\\FE\\hyte-projekt\\browser\\traces\\temp\\e2b7c2b4-d9f2-4068-8dba-8c1f861d404e"}</msg>
+<msg time="2026-04-20T21:28:06.229846" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\Lukas\\Downloads\\FE\\hyte-projekt\\browser\\traces\\temp\\4e6e147c-b244-4746-b841-a4a426510839"}</msg>
+<msg time="2026-04-20T21:28:08.702376" level="INFO">Starting Browser process C:\Users\Lukas\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:64229</msg>
+<msg time="2026-04-20T21:28:11.270266" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\Lukas\\Downloads\\FE\\hyte-projekt\\browser\\traces\\temp\\4e6e147c-b244-4746-b841-a4a426510839"}</msg>
 <arg>chromium</arg>
 <arg>headless=No</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2026-04-13T21:24:09.474562" elapsed="2.174781"/>
+<status status="PASS" start="2026-04-20T21:28:06.229846" elapsed="5.040420"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2026-04-13T21:24:12.728391" level="INFO">Successfully initialized new page object and opened url: http://localhost:5173/login.html</msg>
-<msg time="2026-04-13T21:24:12.728391" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<msg time="2026-04-20T21:28:14.252182" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg time="2026-04-20T21:28:14.252182" level="INFO">See also file:///C:/Users/Lukas/Downloads/FE/hyte-projekt/playwright-log.txt for additional details.</msg>
+<msg time="2026-04-20T21:28:14.254683" level="FAIL">Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:5173/login.html
+Call log:
+  - navigating to "http://localhost:5173/login.html", waiting until "load"
+</msg>
 <arg>${BASE_URL}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2026-04-13T21:24:11.656660" elapsed="1.073092"/>
+<status status="FAIL" start="2026-04-20T21:28:11.277102" elapsed="3.445663">Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:5173/login.html
+Call log:
+  - navigating to "http://localhost:5173/login.html", waiting until "load"
+</status>
 </kw>
 <kw name="Scroll To" owner="Browser">
-<msg time="2026-04-13T21:24:12.933456" level="INFO">JavaScript executed successfully.</msg>
-<msg time="2026-04-13T21:24:12.933456" level="INFO">JavaScript executed successfully.</msg>
-<msg time="2026-04-13T21:24:12.990769" level="INFO">JavaScript executed successfully.</msg>
-<msg time="2026-04-13T21:24:12.990769" level="INFO">JavaScript executed successfully.</msg>
-<msg time="2026-04-13T21:24:13.012815" level="INFO">JavaScript executed successfully.</msg>
 <arg>input[placeholder="name"]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Scrolls an element or the page to an absolute position based on given coordinates.</doc>
-<status status="PASS" start="2026-04-13T21:24:12.730526" elapsed="0.282289"/>
+<status status="NOT RUN" start="2026-04-20T21:28:14.724769" elapsed="0.000000"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2026-04-13T21:24:13.028802" level="INFO">Waited for Element with selector input[placeholder="name"] at state visible</msg>
 <arg>input[placeholder="name"]</arg>
 <arg>visible</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2026-04-13T21:24:13.012815" elapsed="0.015987"/>
+<status status="NOT RUN" start="2026-04-20T21:28:14.724769" elapsed="0.000000"/>
 </kw>
 <kw name="Type Text" owner="Browser">
-<msg time="2026-04-13T21:24:13.030810" level="INFO">Types the text '***' in the given field.</msg>
 <arg>input[placeholder="name"]</arg>
 <arg>${USERNAME}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2026-04-13T21:24:13.028802" elapsed="0.092512"/>
+<status status="NOT RUN" start="2026-04-20T21:28:14.724769" elapsed="0.001267"/>
 </kw>
 <kw name="Type Secret" owner="Browser">
 <arg>input[placeholder="password123"]</arg>
@@ -59,57 +61,54 @@
 <tag>Setter</tag>
 <doc>Types the given secret from ``variable_name`` into the text field
 found by ``selector``.</doc>
-<status status="PASS" start="2026-04-13T21:24:13.122326" elapsed="0.059458"/>
+<status status="NOT RUN" start="2026-04-20T21:28:14.726036" elapsed="0.000000"/>
 </kw>
 <kw name="Scroll To" owner="Browser">
-<msg time="2026-04-13T21:24:13.224309" level="INFO">JavaScript executed successfully.</msg>
-<msg time="2026-04-13T21:24:13.224309" level="INFO">JavaScript executed successfully.</msg>
-<msg time="2026-04-13T21:24:13.252401" level="INFO">JavaScript executed successfully.</msg>
-<msg time="2026-04-13T21:24:13.252401" level="INFO">JavaScript executed successfully.</msg>
-<msg time="2026-04-13T21:24:13.268899" level="INFO">JavaScript executed successfully.</msg>
 <arg>text=Login and get new token</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Scrolls an element or the page to an absolute position based on given coordinates.</doc>
-<status status="PASS" start="2026-04-13T21:24:13.183790" elapsed="0.085109"/>
+<status status="NOT RUN" start="2026-04-20T21:28:14.726554" elapsed="0.000000"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2026-04-13T21:24:13.278805" level="INFO">Waited for Element with selector text=Login and get new token at state visible</msg>
 <arg>text=Login and get new token</arg>
 <arg>visible</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2026-04-13T21:24:13.269658" elapsed="0.009147"/>
+<status status="NOT RUN" start="2026-04-20T21:28:14.727156" elapsed="0.000000"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2026-04-13T21:24:13.279836" level="INFO">Clicks the element 'text=Login and get new token'.</msg>
 <arg>text=Login and get new token</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2026-04-13T21:24:13.279321" elapsed="0.053759"/>
+<status status="NOT RUN" start="2026-04-20T21:28:14.727156" elapsed="0.000000"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2026-04-13T21:24:15.339498" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-04-13T21:24:13.338270" elapsed="2.001731"/>
+<status status="NOT RUN" start="2026-04-20T21:28:14.727789" elapsed="0.000000"/>
 </kw>
-<status status="PASS" start="2026-04-13T21:24:09.472121" elapsed="5.869883"/>
+<status status="FAIL" start="2026-04-20T21:28:06.221619" elapsed="8.506170">Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:5173/login.html
+Call log:
+  - navigating to "http://localhost:5173/login.html", waiting until "load"
+</status>
 </test>
-<status status="PASS" start="2026-04-13T21:24:08.125981" elapsed="7.252743"/>
+<status status="FAIL" start="2026-04-20T21:28:04.710028" elapsed="10.024841"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Browser Demo4" id="s1" pass="1" fail="0" skip="0">Browser Demo4</stat>
+<stat name="Browser Demo4" id="s1" pass="0" fail="1" skip="0">Browser Demo4</stat>
 </suite>
 </statistics>
 <errors>
+<msg time="2026-04-20T21:28:06.221619" level="ERROR">Calling method '_start_suite' of listener 'CryptoLibrary' failed: AttributeError: No password found! Password must be set ahead!</msg>
+<msg time="2026-04-20T21:28:06.229846" level="ERROR">Calling method '_start_test' of listener 'CryptoLibrary' failed: AttributeError: No password found! Password must be set ahead!</msg>
 </errors>
 </robot>
