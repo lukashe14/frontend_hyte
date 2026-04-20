@@ -59,6 +59,8 @@ Tehtävässä piti tehdä muokkauksia edelliseen tehtävään. Esimerkiksi nyt k
 
 # Tehtävä 5
 
+Tehtävässä piti tehdä kirjautumis testi omalle sivustolle. kirjautumis tiedot eli username sekä salasana (password) piti hakea load_env tiedostosta joka hakee käyttäjätiedot env tiedostosta. Käyttäjätiedot pysyvät siis salassa github repon lukijalta. 
+
 [load_env](https://github.com/lukashe14/frontend_hyte/blob/main/load_env.py)
 
 [robot](https://github.com/lukashe14/frontend_hyte/blob/main/browser_demo3.robot)
