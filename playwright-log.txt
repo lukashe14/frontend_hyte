@@ -1,0 +1,37 @@
+{"level":30,"time":"2026-04-20T18:28:10.242Z","pid":26300,"hostname":"DESKTOP-MEDJS28","msg":"Listening on 127.0.0.1:64229"}
+{"level":30,"time":"2026-04-20T18:28:10.279Z","pid":26300,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-04-20T18:28:11.263Z","pid":26300,"hostname":"DESKTOP-MEDJS28","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-04-20T18:28:11.264Z","pid":26300,"hostname":"DESKTOP-MEDJS28","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-04-20T18:28:11.264Z","pid":26300,"hostname":"DESKTOP-MEDJS28","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-04-20T18:28:11.276Z","pid":26300,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-04-20T18:28:11.277Z","pid":26300,"hostname":"DESKTOP-MEDJS28","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@cb28d2d9961f637786c2d189ec36c055\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=2455861a-0c72-4b83-b606-8cc12c39bf63\"}"}
+{"level":30,"time":"2026-04-20T18:28:11.311Z","pid":26300,"hostname":"DESKTOP-MEDJS28","msg":"Setting default timeout for context context=d3f76f14-2db9-40a9-a1ee-751599ce9aac to 10000"}
+{"level":30,"time":"2026-04-20T18:28:11.311Z","pid":26300,"hostname":"DESKTOP-MEDJS28","msg":"Changed active context: context=d3f76f14-2db9-40a9-a1ee-751599ce9aac"}
+{"level":30,"time":"2026-04-20T18:28:11.857Z","pid":26300,"hostname":"DESKTOP-MEDJS28","msg":"Video path: undefined"}
+{"level":30,"time":"2026-04-20T18:28:11.857Z","pid":26300,"hostname":"DESKTOP-MEDJS28","msg":"Changed active page"}
+{"level":30,"time":"2026-04-20T18:28:14.218Z","pid":26300,"hostname":"DESKTOP-MEDJS28","msg":"Error of node method  newPage"}
+================= Original suppressed error =================
+page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:5173/login.html
+Call log:
+[2m  - navigating to "http://localhost:5173/login.html", waiting until "load"[22m
+
+    at newPage (C:\Users\Lukas\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:13017:18)
+    at async PlaywrightServer.newPage (C:\Users\Lukas\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:13635:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2026-04-20T18:28:14.242Z","pid":26300,"hostname":"DESKTOP-MEDJS28","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\Lukas\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:11096:11)
+    at takeScreenshot (C:\Users\Lukas\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:11152:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\Lukas\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:13635:34)
+    at Object.onReceiveHalfClose (C:\Users\Lukas\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Lukas\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Lukas\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Lukas\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-04-20T18:28:14.243Z","pid":26300,"hostname":"DESKTOP-MEDJS28","msg":"Error of node method  takeScreenshot"}
