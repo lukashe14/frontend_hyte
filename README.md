@@ -58,4 +58,18 @@ Tein kaikki asennukset ohjeiden mukaan
 
 ![image alt](https://github.com/lukashe14/frontend_hyte/blob/main/screenshots/teht%C3%A4v%C3%A45testi.png)
 
+# Tehtävä 6
+[robot](https://github.com/lukashe14/frontend_hyte/blob/main/browser_demo4.robot)
+
+![kuva tuloksesta](https://github.com/lukashe14/frontend_hyte/blob/main/screenshots/teht%C3%A4v%C3%A46testi.png)
+
+# Tehtävä 7
+![Kuva komennosta](https://github.com/lukashe14/frontend_hyte/blob/main/screenshots/Teht%C3%A4v%C3%A47command.png)
+
+![Kuva outputs kansiosta komennon ajamisen jälkeen](https://github.com/lukashe14/frontend_hyte/blob/main/screenshots/teht%C3%A4v%C3%A47.png)
+
+
+# Tehtävä 8
+[https://lukashe14.github.io/frontend_hyte/](https://lukashe14.github.io/frontend_hyte/)
+
 
